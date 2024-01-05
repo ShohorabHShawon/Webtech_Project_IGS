@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: #daded4;
+  color: #ffffff;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.logo {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 46px;
+  color: #3c403d;
+  font-weight: 700;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.updatebtn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 25px;
+}
+.updatebtn:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.42);
+}
+.wrapper {
+  list-style: none;
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  height: 650px;
+  background: #a3bcb6;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.42);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper h1 {
+  color: #3c403d;
+  padding: 20px;
+  font-size: 30px;
+}
+.wrapper table {
+  width: 70%;
+  margin-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.wrapper th {
+  padding: 8px;
+  text-align: center;
+  font-size: 28px;
+  color: #3c403d;
+}
+.wrapper td {
+  padding: 10px;
+  text-align: center;
+  font-size: 22px;
+}
+.supportbtn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 25px;
+}
+.supportbtn:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.42);
+}
+.dp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dp img{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border: 7px solid #a3bcb6;
+  transition: 0.3s;
+}
+.dp img:hover{
+  box-shadow: 12px 10px 10px -5px rgba(0, 0, 0, 0.42);
+}
+.info {
+  text-align: center;
+  margin: 5px 5px;
+  border-radius: 15px;
+  color: #3c403d;
+  font-size: 20px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}

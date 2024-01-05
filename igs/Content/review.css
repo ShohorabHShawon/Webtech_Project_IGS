@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: #daded4;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+button{
+  color: #3c403d;
+  padding: 10px 20px;
+  background: transparent;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.5s ease all;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.wrapper {
+  list-style: none;
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  background: #a3bcb6;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.42);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper h1 {
+  color: #3c403d;
+  padding: 20px;
+  font-size: 30px;
+}
+.ratebtn{
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 25px;
+  margin-right: 100%;
+  margin-bottom: 10px;
+}
+.ratebtn:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.42);
+}
+.librarybtn{
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 25px;
+}
+.librarybtn:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.42);
+}
+.reviewarea{
+  width: 300px;
+  height: 100px;
+  border-radius: 25px;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #daded4;
+  outline: none;
+  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.42);
+}
+.reviewarea:focus{
+  background-color: #daded4;
+  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.42) inset;
+}
+.showname{
+  outline: none;
+  background-color: #daded4;
+  font-size: 22px;
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  height: 30px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 5px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.42);
+}
+h1{
+  font-size: 30px;
+  color: #3c403d;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+}
+.rating {
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 10px;
+  direction: rtl;
+}
+.rating input {
+  display: none;
+}
+.rating label {
+  background-image: url('../Assets/icon/star.png');
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  cursor: pointer;
+}
+.rating input:checked + label,
+.rating input:checked ~ label {
+  background-image: url('../Assets/icon/filled-star.png'); 
+}
+.rating label:hover,
+.rating label:hover ~ label {
+  background-image: url('../Assets/icon/filled-star.png');
+}
+
